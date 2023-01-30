@@ -9,3 +9,13 @@
     width: 200px;
     height: auto;
 }
+
+* {
+    background-color: rgb(56, 53, 53);
+    color: lightgray;
+}
+
+h1, 
+h2 {
+    font-family: 'Trebuchet MS', sans-serif;
+}
