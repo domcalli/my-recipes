@@ -1,4 +1,38 @@
 * {
-    background-color: rgb(56, 53, 53);
-    color: whitesmoke
+  background-color: rgb(56, 53, 53);
+  color: whitesmoke;
+  border: solid;
+  margin: 20px;
+}
+
+html,
+body {
+  background-color: lightslategray;
+  height: 100vh;
+  width: 100vw;
+}
+
+.title {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  width: 90vw;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.recipe-card {
+  min-width: 200px;
+  /* width: 15vw; */
+
+  height: 20vh;
+  list-style: none;
+  border: solid white 2px;
+}
+
+.recipe-list {
+  display: flex;
+  flex-wrap: wrap;
 }
