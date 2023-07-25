@@ -1,15 +1,18 @@
 * {
   background-color: rgb(56, 53, 53);
   color: whitesmoke;
-  border: solid;
-  margin: 20px;
+  border: none;
+  margin: 0;
 }
 
-html,
-body {
+html, body {
   background-color: lightslategray;
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .title {
@@ -17,19 +20,21 @@ body {
 }
 
 .container {
-  display: flex;
-  width: 90vw;
-  justify-content: center;
-  margin-top: 60px;
+  width: 90%;
 }
 
 .recipe-card {
   min-width: 200px;
-  /* width: 15vw; */
-
   height: 20vh;
   list-style: none;
+  padding: 10px;
+  margin: 10px;
   border: solid white 2px;
+}
+
+.recipe-card a {
+  text-decoration: none;
+  color: whitesmoke;
 }
 
 .recipe-list {
