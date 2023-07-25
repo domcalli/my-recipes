@@ -1,21 +1,65 @@
-.display {
-    margin-left: auto;
-    margin-right: auto;
-    width: 300px;
-    height: auto;
-}
-
-.steak {
-    width: 200px;
-    height: auto;
-}
-
 * {
-    background-color: rgb(56, 53, 53);
-    color: lightgray;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-h1, 
+body {
+  background-color: rgb(56, 53, 53);
+  color: lightgray;
+  font-family: "Trebuchet MS", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 800px;
+  padding: 20px;
+}
+
+header {
+  background-color: #333333;
+  padding: 10px;
+  text-align: center;
+}
+
+header a {
+  text-decoration: none;
+  color: lightgray;
+}
+
+h1 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.img {
+  display: block;
+  margin: 0 auto;
+  width: 300px;
+  height: auto;
+}
+
 h2 {
-    font-family: 'Trebuchet MS', sans-serif;
+  font-size: 24px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+ul,
+ol {
+  /* list-style: none; */
+  padding-left: 20px;
+}
+
+ul li,
+ol li {
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 15px;
 }
